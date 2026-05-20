@@ -1,0 +1,45 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.bcf
+*.idx
+*.ilg
+*.ind
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+
+# Build directories
+_build/
+build/
+out/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary backup files
+*~
+*.bak
+*.tmp
+
+# Kompajlirani PDFovi iz predloška (već uključeni)
+# Ako želiš commitati svoj diplomski_rad.pdf, makni gornju liniju
+# inače ostaje gitignore-ano
